@@ -2,59 +2,112 @@
 {% if site.resume_social_links %}
 <ul class="icon-links">
 
-    <!-- GitHub link -->
-    {% if site.resume_social_links.resume_github_url %}
-    <li class="icon-link-item">
-        <a class="icon-link" aria-label="Github URL" href="{{ site.resume_social_links.resume_github_url }}" itemprop="sameAs">{% include
-            icons/icon-github.html %}</a>
-    </li>
-    {% endif %}
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Github URL" href="{{ site.resume_social_links.resume_github_url }}" itemprop="sameAs">{% include icons/icon-github.html %}</a></li>
+  {% endif %}
 
-    <!-- Twitter link -->
-    {% if site.resume_social_links.resume_twitter_url %}
-    <li class="icon-link-item">
-        <a class="icon-link" aria-label="Twitter URL" href="{{ site.resume_social_links.resume_twitter_url }}" itemprop="sameAs">{% include
-            icons/icon-twitter.html %}</a>
-    </li>
-    {% endif %}
+  <!-- Twitter link -->
+  {% if site.resume_social_links.resume_twitter_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Twitter URL" href="{{ site.resume_social_links.resume_twitter_url }}" itemprop="sameAs">{% include icons/icon-twitter.html %}</a></li>
+  {% endif %}
+  
+  <!-- Medium link -->
+  {% if site.resume_social_links.resume_medium_url %}
+  <li class="icon-link-item">
+    <a class="icon-link" aria-label="Medium URL" href="{{ site.resume_social_links.resume_medium_url }}" itemprop="url">{% include icons/icon-medium.html %}</a>
+  </li>
+  {% endif %}
 
-    <!-- Medium link -->
-    {% if site.resume_social_links.resume_medium_url %}
-    <li class="icon-link-item">
-        <a class="icon-link" aria-label="Medium URL" href="{{ site.resume_social_links.resume_medium_url }}" itemprop="url">{% include
-            icons/icon-medium.html %}</a>
-    </li>
-    {% endif %}
+  <!-- Dribbble link -->
+  {% if site.resume_social_links.resume_dribbble_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Dribbble URL" href="{{ site.resume_social_links.resume_dribbble_url }}" itemprop="sameAs">{% include icons/icon-dribbble.html %}</a></li>
+  {% endif %}
 
-    <!-- Dribbble link -->
-    {% if site.resume_social_links.resume_dribbble_url %}
-    <li class="icon-link-item"><a class="icon-link" aria-label="Dribble URL" href="{{ site.resume_social_links.resume_dribbble_url }}"
-                                  itemprop="sameAs">{% include icons/icon-dribbble.html %}</a></li>
-    {% endif %}
+  <!-- Facebook link -->
+  {% if site.resume_social_links.resume_facebook_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Facebook URL" href="{{ site.resume_social_links.resume_facebook_url }}" itemprop="sameAs">{% include icons/icon-facebook.html %}</a></li>
+  {% endif %}
 
-    <!-- Facebook link -->
-    {% if site.resume_social_links.resume_facebook_url %}
-    <li class="icon-link-item"><a class="icon-link" aria-label="Facebook URL" href="{{ site.resume_social_links.resume_facebook_url }}"
-                                  itemprop="sameAs">{% include icons/icon-facebook.html %}</a></li>
-    {% endif %}
+  <!-- LinkedIn link -->
+  {% if site.resume_social_links.resume_linkedin_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Linkedin URL" href="{{ site.resume_social_links.resume_linkedin_url }}" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+  {% endif %}
 
-    <!-- LinkedIn link -->
-    {% if site.resume_social_links.resume_linkedin_url %}
-    <li class="icon-link-item"><a class="icon-link" aria-label="LinkedIn URL" href="{{ site.resume_social_links.resume_linkedin_url }}"
-                                  itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
-    {% endif %}
+  <!-- Instagram link -->
+  {% if site.resume_social_links.resume_instagram_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Instagram URL" href="{{ site.resume_social_links.resume_instagram_url }}" itemprop="sameAs">{% include icons/icon-instagram.html %}</a></li>
+  {% endif %}
 
-    <!-- Instagram link -->
-    {% if site.resume_social_links.resume_instagram_url %}
-    <li class="icon-link-item"><a class="icon-link"aria-label="Instagram URL"  href="{{ site.resume_social_links.resume_instagram_url }}"
-                                  itemprop="sameAs">{% include icons/icon-instagram.html %}</a></li>
-    {% endif %}
+  <!-- Bluesky link -->
+  {% if site.resume_social_links.resume_bluesky_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Bluesky URL" href="{{ site.resume_social_links.resume_bluesky_url }}" itemprop="sameAs">{% include icons/icon-bluesky.html %}</a></li>
+  {% endif %}
 
-    <!-- Website link -->
-    {% if site.resume_social_links.resume_website_url %}
-    <li class="icon-link-item"><a class="icon-link" aria-label="Website URL" href="{{ site.resume_social_links.resume_website_url }}"
-                                  itemprop="url">{% include icons/icon-website.html %}</a></li>
-    {% endif %}
+  <!-- YouTube link -->
+  {% if site.resume_social_links.resume_youtube_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Youtube URL" href="{{ site.resume_social_links.resume_youtube_url }}" itemprop="sameAs">{% include icons/icon-youtube.html %}</a></li>
+  {% endif %}
+
+  <!-- Mastodon link -->
+  {% if site.resume_social_links.resume_mastodon_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Mastodon URL" href="{{ site.resume_social_links.resume_mastodon_url }}" itemprop="sameAs">{% include icons/icon-mastodon.html %}</a></li>
+  {% endif %}
+
+  <!-- Threads link -->
+  {% if site.resume_social_links.resume_threads_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Threads URL" href="{{ site.resume_social_links.resume_threads_url }}" itemprop="sameAs">{% include icons/icon-threads.html %}</a></li>
+  {% endif %}
+
+  <!-- Stack Overflow link -->
+  {% if site.resume_social_links.resume_stackoverflow_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Stackoverflow URL" href="{{ site.resume_social_links.resume_stackoverflow_url }}" itemprop="sameAs">{% include icons/icon-stackoverflow.html %}</a></li>
+  {% endif %}
+
+  <!-- Wellfound link -->
+  {% if site.resume_social_links.resume_wellfound_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Wellfound URL" href="{{ site.resume_social_links.resume_wellfound_url }}" itemprop="sameAs">{% include icons/icon-wellfound.html %}</a></li>
+  {% endif %}
+
+  <!-- Spotify link -->
+  {% if site.resume_social_links.resume_spotify_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Spotify URL" href="{{ site.resume_social_links.resume_spotify_url }}" itemprop="sameAs">{% include icons/icon-spotify.html %}</a></li>
+  {% endif %}
+
+  <!-- SoundCloud link -->
+  {% if site.resume_social_links.resume_soundcloud_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Soundcloud URL" href="{{ site.resume_social_links.resume_soundcloud_url }}" itemprop="sameAs">{% include icons/icon-soundcloud.html %}</a></li>
+  {% endif %}
+
+  <!-- TikTok link -->
+  {% if site.resume_social_links.resume_tiktok_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Tiktok URL" href="{{ site.resume_social_links.resume_tiktok_url }}" itemprop="sameAs">{% include icons/icon-tiktok.html %}</a></li>
+  {% endif %}
+
+  <!-- Pinterest link -->
+  {% if site.resume_social_links.resume_pinterest_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Pinterest URL" href="{{ site.resume_social_links.resume_pinterest_url }}" itemprop="sameAs">{% include icons/icon-pinterest.html %}</a></li>
+  {% endif %}
+
+  <!-- Snapchat link -->
+  {% if site.resume_social_links.resume_snapchat_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Snapchat URL" href="{{ site.resume_social_links.resume_snapchat_url }}" itemprop="sameAs">{% include icons/icon-snapchat.html %}</a></li>
+  {% endif %}
+
+  <!-- WhatsApp link -->
+  {% if site.resume_social_links.resume_whatsapp_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Whatsapp URL" href="{{ site.resume_social_links.resume_whatsapp_url }}" itemprop="sameAs">{% include icons/icon-whatsapp.html %}</a></li>
+  {% endif %}
+
+  <!-- VK link -->
+  {% if site.resume_social_links.resume_vk_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Vk URL" href="{{ site.resume_social_links.resume_vk_url }}" itemprop="sameAs">{% include icons/icon-vk.html %}</a></li>
+  {% endif %}
+
+  <!-- Website link -->
+  {% if site.resume_social_links.resume_website_url %}
+  <li class="icon-link-item"><a class="icon-link" aria-label="Website URL" href="{{ site.resume_social_links.resume_website_url }}" itemprop="url">{% include icons/icon-website.html %}</a></li>
+  {% endif %}
 
 </ul>
 {% endif %}
