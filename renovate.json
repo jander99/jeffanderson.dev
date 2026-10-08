@@ -6,11 +6,15 @@
   "forkProcessing": "enabled",
   "packageRules": [
     {
-      "description": "GitHub Pages controls the Ruby version (https://pages.github.com/versions/); stay on 3.3.x",
+      "description": "GitHub Pages controls the Ruby version (https://pages.github.com/versions/); allow patch updates only",
       "matchPackageNames": [
         "ruby"
       ],
-      "allowedVersions": "<3.4"
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "enabled": false
     }
   ]
 }
