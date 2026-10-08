@@ -1,10 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
+  "forkProcessing": "enabled",
   "packageRules": [
     {
       "description": "GitHub Pages controls the Ruby version (https://pages.github.com/versions/); stay on 3.3.x",
-      "matchPackageNames": ["ruby"],
+      "matchPackageNames": [
+        "ruby"
+      ],
       "allowedVersions": "<3.4"
     }
   ]
