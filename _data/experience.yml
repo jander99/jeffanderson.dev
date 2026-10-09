@@ -99,7 +99,7 @@
       projects:
         - project: HR Solutions Applications
           duration: October 2009 &mdash; January 2012
-          technology: Java, Struts, JSP, Tomcat, WebSphere Application Server, MySQL
+          technology: Java 5, Java 6, Struts, JSP, Tomcat, WebSphere Application Server, MySQL
           summary:
             Java developer supporting enterprise applications for HR Solutions, including staffing systems that served hundreds of thousands of applicants per year.
             <ul>
