@@ -20,7 +20,7 @@
           of 8 engineers, product, and user experience.</p>
 
     - position: Senior Software Engineer
-      duration: October 2014 &mdash; April 2018
+      duration: January 2017 &mdash; April 2018
       projects:
         - project: Tax Commons Bridge
           duration: July 2017 &mdash; April 2018
@@ -41,7 +41,7 @@
             while maintaining compliance with The Home Depot's IT controls.</p>
 
         - project: Password Reset
-          duration: December 2016 &mdash; July 2017
+          duration: January 2017 &mdash; July 2017
           technology: Java 8, Spring Boot, Angular 1.4, CloudFoundry
           summary: 
             Team lead for a small group working on the Password Reset application
@@ -49,6 +49,20 @@
               <li>Handled password resets for all store, distribution center, and corporate associates and contractors</li>
               <li>Offloaded almost 100,000 calls to the IT Helpdesk per year, saving the company over $4m per year in costs to both helpdesk and associates</li>
               <li>Cut customer-facing support time from minutes to seconds in the event a password needed to be reset</li>
+            </ul>
+
+    - position: Senior IT Developer
+      duration: October 2014 &mdash; January 2017
+      projects:
+        - project: Performance Management
+          duration: October 2014 &mdash; January 2017
+          technology: Java 8, Jersey, AngularJS 1.5, Node.js, Grunt
+          summary:
+            Moved into an agile product team supporting the custom-written Performance Management system for both store and corporate associates.
+            <ul>
+              <li>Led a team of 4 on development and bug fixes over two-week sprints</li>
+              <li>Built and maintained a Java 8 backend using Jersey and a custom DAO layer, with an AngularJS 1.5 front end on a Node/Grunt build system</li>
+              <li>Practiced Agile Scrum with the team</li>
             </ul>
 
         - project: Knowledge Depot
