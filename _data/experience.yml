@@ -63,3 +63,32 @@
               <li>Worked with Oracle DBA to tune a RAC system to work with the Saba software</li>
               <li>Worked with Store Networking to build a prefetch system that populated 2,200 Squid caches with learning content nightly</li>
             </ul>
+
+    - position: IT Developer II
+      duration: January 2012 &mdash; October 2014
+      projects:
+        - project: Knowledge Depot (Learning Management System)
+          duration: January 2012 &mdash; October 2014
+          summary:
+            Drove stability and performance of the Knowledge Depot LMS through Spring Hire season and beyond, while training volume grew 120% year over year on the new system.
+            <ul>
+              <li>Performed system checks and diagnosed production problems</li>
+              <li>Worked with the vendor on performance problems, documenting our issues down to the code level</li>
+              <li>Partnered with SAN engineering, Operations, and Networking to identify performance bottlenecks</li>
+              <li>Integrated LMS data with a third-party vendor to power a rewards program for product knowledge (PK) certification</li>
+            </ul>
+
+    - position: IT Developer
+      duration: October 2009 &mdash; January 2012
+      projects:
+        - project: HR Solutions Applications
+          duration: October 2009 &mdash; January 2012
+          summary:
+            Java developer supporting enterprise applications for HR Solutions.
+            <ul>
+              <li>Supported and developed the Retail Staffing Candidate Gateway, a custom training solution, and the Employee Self Service modules</li>
+              <li>Helped move a WebSphere (WAS) deployed application to Tomcat</li>
+              <li>Deployed training material to the custom training system biweekly, including store cache cleanup tasks</li>
+              <li>Discovered a bug in a cron job that was rapidly filling the MySQL server's disk while training on one of the staffing systems. Worked it through to resolution and averted a production outage of the 2nd highest traffic public homedepot.com website</li>
+              <li>Nominated for the IT Pillars of Excellence award within 90 days of starting the role</li>
+            </ul>
