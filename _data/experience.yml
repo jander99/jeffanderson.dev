@@ -69,13 +69,13 @@
           duration: October 2014 &mdash; December 2016
           technology: Java 8, JBossAS, Apache httpd, Oracle 12c, Oracle GoldenGate, Linux
           summary: 
-            Led the second implementation of Saba software for Knowledge Depot, this time on Saba Cloud. The system is used by every associate in Home Depot
+            Led the second implementation of Saba software for Knowledge Depot, this time on Saba Cloud. Despite the product name, it ran on Linux VMs provisioned for our team on-site. The system is used by every associate in Home Depot
             to take required web-based training, such as Lift Truck safety or Data Privacy training, with 350,000 associates logging in at least once a month.
             <ul>
-              <li>Designed a custom server cluster to meet Home Depot's needs</li>
+              <li>Designed a custom server cluster to meet Home Depot's needs, moving from JBoss EAP to the lighter-weight JBossAS</li>
               <li>Installed Saba software on the cluster</li>
               <li>Worked with Oracle DBA to tune a RAC system to work with the Saba software</li>
-              <li>Ran the database tier on Oracle 12c with GoldenGate replication</li>
+              <li>Worked with the DBAs on an Oracle 12c database tier using GoldenGate replication, including a third replicated database for Crystal Reports reporting</li>
               <li>Worked with Store Networking to build a prefetch system that populated 2,200 Squid caches with learning content nightly</li>
             </ul>
 
