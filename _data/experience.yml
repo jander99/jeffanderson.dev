@@ -65,12 +65,12 @@
               <li>Practiced Agile Scrum with the team</li>
             </ul>
 
-        - project: Knowledge Depot
+        - project: Knowledge Depot &mdash; Saba Cloud Implementation
           duration: October 2014 &mdash; December 2016
           technology: Java 8, JBossAS, Apache httpd, Linux
           summary: 
-            Led the implementation of the Saba Cloud learning management system. This system is used by every associate in Home Depot
-            to take required web-based training, such as Lift Truck safety or Data Privacy training.
+            Led the second implementation of Saba software for Knowledge Depot, this time on Saba Cloud. The system is used by every associate in Home Depot
+            to take required web-based training, such as Lift Truck safety or Data Privacy training, with 350,000 associates logging in at least once a month.
             <ul>
               <li>Designed a custom server cluster to meet Home Depot's needs</li>
               <li>Installed Saba software on the cluster</li>
@@ -81,10 +81,10 @@
     - position: IT Developer II
       duration: January 2012 &mdash; October 2014
       projects:
-        - project: Knowledge Depot (Learning Management System)
+        - project: Knowledge Depot &mdash; Original Saba Implementation
           duration: January 2012 &mdash; October 2014
           summary:
-            Drove stability and performance of the Knowledge Depot LMS through Spring Hire season and beyond, while training volume grew 120% year over year on the new system.
+            Drove stability and performance of the original Saba-based Knowledge Depot learning management system through Spring Hire season and beyond, while training volume grew 120% year over year on the new system.
             <ul>
               <li>Performed system checks and diagnosed production problems</li>
               <li>Worked with the vendor on performance problems, documenting our issues down to the code level</li>
@@ -98,7 +98,7 @@
         - project: HR Solutions Applications
           duration: October 2009 &mdash; January 2012
           summary:
-            Java developer supporting enterprise applications for HR Solutions.
+            Java developer supporting enterprise applications for HR Solutions, including staffing systems that served hundreds of thousands of applicants per year.
             <ul>
               <li>Supported and developed the Retail Staffing Candidate Gateway, a custom training solution, and the Employee Self Service modules</li>
               <li>Helped move a WebSphere (WAS) deployed application to Tomcat</li>
