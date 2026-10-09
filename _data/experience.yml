@@ -29,15 +29,15 @@
             <p>Developed a facade for an existing legacy Tax system that allows the Installed Sales group
             to charge customers tax on installations of items available on homedepot.com.  This has lifted
             the hd.com sales by over $100m in 2018. This work was the precursor to the current Tax Commons 
-            product at Home Depot</p>
+            product at Home Depot.</p>
 
         - project: Locksmith
           duration: July 2017
           technology: Golang, CloudFoundry, Python
           summary:
-            <p>Worked with a team composed of CloudFoundry administrators, IT Change Administators and internal audit, 
+            <p>Worked with a team composed of CloudFoundry administrators, IT Change Administrators and internal audit, 
             and the software engineering community within The Home Depot to understand and develop software that tied 
-            deployment events on PCF to a Change Record in Service Now. This enabled software engineers to push code 
+            deployment events on PCF to a Change Record in ServiceNow. This enabled software engineers to push code 
             while maintaining compliance with The Home Depot's IT controls.</p>
 
         - project: Password Reset
@@ -48,7 +48,7 @@
             <ul>
               <li>Handles password resets for all store, distribution center, and corporate associates and contractors.</li>
               <li>Offload almost 100,000 calls to the IT Helpdesk per year, saving the company over $4m per year in costs to both helpdesk and associates.</li>
-              <li>Cut customer-facing support time for minutes to seconds in the event a password needs to be reset. </li>
+              <li>Cut customer-facing support time from minutes to seconds in the event a password needs to be reset.</li>
             </ul>  
             
         - project: Knowledge Depot 
@@ -61,5 +61,5 @@
               <li>Designed custom server cluster that would meet Home Depot's needs</li>
               <li>Installed Saba software on cluster</li>
               <li>Worked with Oracle DBA to tune a RAC system to work with the Saba software</li>
-              <li>worked with Store Networking to build a prefetch system that populated 2200 Squid caches with learning content nightly.</li>
+              <li>Worked with Store Networking to build a prefetch system that populated 2200 Squid caches with learning content nightly.</li>
             </ul>
